@@ -1,9 +1,6 @@
 package com.hackerrank;
 
-//import java.util.ArrayList;
-//import java.util.Collections;
-
-public class Main {
+public class Palindrome {
     public static void main(String[] args) {
         String result = palindrome("madar");
         System.out.println(result);
@@ -21,4 +18,4 @@ public class Main {
             isPalindrome = "Yes";
         return isPalindrome;
     }
-};
+}
